@@ -6,6 +6,7 @@
 
     <title>@yield('title', 'Nexora Solutions')</title>
 
+    <link rel="stylesheet" href="{{ asset('css/company.css') }}">
     <style>
         * {
             margin: 0;
@@ -36,35 +37,14 @@
             background: #2563eb;
             color: white;
             font-weight: bold;
-            transition: 0.3s;
         }
 
         .btn:hover {
             background: #1d4ed8;
         }
 
-        .page-header {
-            padding: 80px 0 40px;
-            text-align: center;
-            background: #eff6ff;
-        }
-
-        .page-header h1 {
-            font-size: 42px;
-            margin-bottom: 15px;
-        }
-
-        .page-header p {
-            color: #64748b;
-            font-size: 18px;
-        }
-
         .section {
             padding: 70px 0;
-        }
-
-        footer {
-            margin-top: 60px;
         }
     </style>
 </head>
