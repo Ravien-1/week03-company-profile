@@ -6,25 +6,21 @@
             Nexora
         </a>
 
-        <div style="display: flex; gap: 25px; align-items: center;">
+        <div style="display: flex; gap: 25px;">
 
-            <a href="{{ route('home') }}"
-               style="color: white;">
+            <a href="{{ route('home') }}" style="color: white;">
                 Home
             </a>
 
-            <a href="{{ route('about') }}"
-               style="color: white;">
+            <a href="{{ route('about') }}" style="color: white;">
                 About
             </a>
 
-            <a href="{{ route('services') }}"
-               style="color: white;">
+            <a href="{{ route('services') }}" style="color: white;">
                 Services
             </a>
 
-            <a href="{{ route('contact') }}"
-               style="color: white;">
+            <a href="{{ route('contact') }}" style="color: white;">
                 Contact
             </a>
 
