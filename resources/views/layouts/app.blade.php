@@ -6,7 +6,6 @@
 
     <title>@yield('title', 'Nexora Solutions')</title>
 
-    <link rel="stylesheet" href="{{ asset('css/company.css') }}">
     <style>
         * {
             margin: 0;
