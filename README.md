@@ -443,7 +443,7 @@ Moving forward, I feel confident building more complex Laravel applications. The
 
 ## Architecture Diagram
 
-![alt text](image-2.png)
+![alt text](image-3.png)
 
 ## Linkedin Post Published
 https://www.linkedin.com/feed/update/urn:li:activity:7494395640785870848/
