@@ -171,7 +171,7 @@ Client / Browser
 
 ## Laravel Routing
 
-![alt text](image.png)
+![Laravel Routing](screenshots/image-1.png)
 
 **What is Routing?**
 
@@ -231,7 +231,7 @@ The Nexora Solutions website uses GET routes for its four main pages:
 
 ## Controllers
 
-![alt text](image-1.png)
+![Controllers](screenshots/image-2.png)
 
 **Purpose of Controllers**
 
@@ -315,10 +315,11 @@ The master layout defines the overall HTML structure that all pages share:
 ```
 ![Layout](screenshots/layout.png.png)
 
-![Layout](screenshots/layout2.png.png)
+![Image 3](screenshots/image-3.png)
 
-![Layout](screenshots/layout3.png.png)
+![Image 4](screenshots/image-4.png)
 
+![Image 5](screenshots/image-5.png)
 
 ---
 
@@ -444,7 +445,7 @@ Moving forward, I feel confident building more complex Laravel applications. The
 
 ## Architecture Diagram
 
-![alt text](image.png)
+![Architecture Diagram](screenshots/image.png)
 
 ## Linkedin Post Published
 https://www.linkedin.com/feed/update/urn:li:activity:7494395640785870848/
