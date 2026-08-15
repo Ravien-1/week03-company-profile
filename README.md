@@ -315,9 +315,11 @@ The master layout defines the overall HTML structure that all pages share:
 ```
 ![Layout](screenshots/layout.png.png)
 
-![Layout](screenshots/layout2.png.png)
+![alt text](image-4.png)
 
-![Layout](screenshots/layout3.png.png)
+![alt text](image-5.png)
+
+![alt text](image-6.png)
 
 ---
 
@@ -443,7 +445,7 @@ Moving forward, I feel confident building more complex Laravel applications. The
 
 ## Architecture Diagram
 
-![alt text](image-3.png)
+![alt text](image-7.png)
 
 ## Linkedin Post Published
 https://www.linkedin.com/feed/update/urn:li:activity:7494395640785870848/
