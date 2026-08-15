@@ -1,58 +1,165 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Mini Project 02: Company Profile Website
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Project Title
 
-## About Laravel
+**Nexora Solutions – Company Profile Website**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A responsive multi-page company profile website developed using Laravel and the Model-View-Controller (MVC) architecture. The project demonstrates Laravel routing, controllers, Blade templates, reusable components, and responsive web design.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Table of Contents
 
-## Learning Laravel
+1. [Project Introduction](#project-introduction)
+2. [Objectives](#objectives)
+3. [Technologies Used](#technologies-used)
+4. [MVC Architecture](#mvc-architecture)
+5. [Laravel Routing](#laravel-routing)
+6. [Controllers](#controllers)
+7. [Blade Templating Engine](#blade-templating-engine)
+8. [Website Pages](#website-pages)
+9. [Reusable Components](#reusable-components)
+10. [Folder Structure](#folder-structure)
+11. [Architecture Diagram](#architecture-diagram)
+12. [Screenshots](#screenshots)
+13. [Problems Encountered](#problems-encountered)
+14. [Solutions](#solutions)
+15. [Git Version Control](#git-version-control)
+16. [Reflection](#reflection)
+17. [References](#references)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Project Introduction
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+Nexora Solutions is a fictional technology company created for this Laravel laboratory activity. The company profile website presents the company, its services, background, and contact information through a clean and responsive web interface.
 
-## Agentic Development
+A Company Profile Website is a website that introduces a company to its customers and visitors. It normally contains information about the company, its services, values, contact details, and other important information.
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+Businesses need a company website because it gives them an online presence and allows customers to easily learn about their products or services. It can also help make a business look more professional and accessible.
 
-```bash
-composer require laravel/boost --dev
+The purpose of this project is to create a multi-page company profile website while applying Laravel's MVC architecture. The project focuses on routing, controllers, Blade templating, reusable layouts, components, and proper organization of the Laravel application.
 
-php artisan boost:install
-```
+---
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+## Objectives
 
-## Contributing
+The main objectives of this project are:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Understand the basic MVC architecture used by Laravel.
+- Create and manage multiple Laravel routes.
+- Connect routes to a controller.
+- Create a `CompanyController`.
+- Build multiple pages using Blade templates.
+- Create a reusable Blade layout.
+- Create reusable navigation and footer components.
+- Apply the `@extends`, `@section`, `@yield`, and `@include` Blade directives.
+- Organize the project using Laravel's folder structure.
+- Create a responsive and professional company profile website.
+- Practice Git version control and meaningful commits.
+- Document the development process using Markdown.
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Technologies Used
 
-## Security Vulnerabilities
+The project was developed using the following technologies:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **Laravel**
+- **PHP**
+- **Blade Templating Engine**
+- **HTML5**
+- **CSS3**
+- **Visual Studio Code**
+- **Git**
+- **GitHub**
+- **XAMPP**
 
-## License
+Custom CSS was used to style the website and create the responsive layout.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+# MVC Architecture
+
+## What is MVC?
+
+MVC stands for **Model-View-Controller**. It is a software architecture pattern that separates an application into different parts based on their responsibilities.
+
+### Model
+
+The Model is responsible for handling application data and business-related operations. In this project, there is no database requirement, so the Model is not heavily used.
+
+### View
+
+The View is responsible for what the user sees in the browser. In this project, the Views are created using Laravel's Blade templating engine.
+
+Examples include:
+
+- `home.blade.php`
+- `about.blade.php`
+- `services.blade.php`
+- `contact.blade.php`
+
+### Controller
+
+The Controller handles incoming requests and determines which View should be returned.
+
+The main controller used in this project is:
+
+`CompanyController.php`
+
+---
+
+## Why Laravel Uses MVC
+
+Laravel uses MVC because it helps developers organize an application into separate responsibilities. Instead of putting routes, page design, and application logic in one place, each part has its own location.
+
+This makes the project easier to understand, maintain, debug, and expand.
+
+---
+
+## Advantages of MVC
+
+### Better Organization
+
+Different parts of the application are separated into Models, Views, and Controllers.
+
+### Easier Maintenance
+
+A developer can modify one part of the application without unnecessarily changing other parts.
+
+### Reusable Code
+
+Blade layouts and components can be reused across multiple pages.
+
+### Easier Debugging
+
+When something goes wrong, it is easier to identify whether the problem is related to the route, controller, or view.
+
+### Scalability
+
+The same structure can be used when the application becomes larger and more complex.
+
+---
+
+# Laravel Request Flow
+
+The basic request flow of this project is:
+
+```text
+Client / Browser
+       │
+       ▼
+   Route (web.php)
+       │
+       ▼
+ CompanyController
+       │
+       ▼
+    Blade View
+       │
+       ▼
+  HTML Response
+       │
+       ▼
+      Browser

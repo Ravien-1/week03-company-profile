@@ -163,21 +163,21 @@
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px;">
 
             <div style="background: #1e293b; padding: 30px; border-radius: 12px; text-align: center;">
-                <h3>Alex Rivera</h3>
+                <h3>Ravien Ongkiko (Pogi)</h3>
                 <p style="color: #93c5fd; margin-top: 8px;">
                     Managing Director
                 </p>
             </div>
 
             <div style="background: #1e293b; padding: 30px; border-radius: 12px; text-align: center;">
-                <h3>Mia Santos</h3>
+                <h3>Drake Natividad</h3>
                 <p style="color: #93c5fd; margin-top: 8px;">
                     Lead Developer
                 </p>
             </div>
 
             <div style="background: #1e293b; padding: 30px; border-radius: 12px; text-align: center;">
-                <h3>Daniel Cruz</h3>
+                <h3>Benjamin Abadier</h3>
                 <p style="color: #93c5fd; margin-top: 8px;">
                     UI/UX Designer
                 </p>
